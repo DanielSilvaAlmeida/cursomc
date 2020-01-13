@@ -8,5 +8,5 @@ import com.daniel.cursomc.domain.Categoria;
 // Interface responsável pela camada de acesso a dados
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Integer> {
-
+	
 }
